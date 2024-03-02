@@ -73,3 +73,31 @@ A revision list for learning python.
 
     ```
 
+- ```True / False``` and ``if``
+    ```python
+    # booleans aka bool are variables that store True or False
+    # we use them to make decisions
+
+    if (True):
+        print('this will print')
+
+
+    if (False):
+        print('this will not print')
+
+
+    x = True
+
+    if (x):
+        print('x is True')
+
+    # is 5 greater than 3? yes aka True
+    if 5 > 3:
+        print('5 > 3 evaluates to True')
+
+
+    # is 0 greater than 3? no aka False
+    if 0 > 3:
+        print('0>3 evaluates to False') # will not print
+
+    ```
