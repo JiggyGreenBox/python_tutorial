@@ -32,6 +32,12 @@ A revision list for learning python.
     print(type(x))      # int   - integer
     print(type(y))      # float - floating point decimal
     print(type(z))      # str   - string aka text
+
+    a = {'name':'sourabh','age':34}
+    b = [1,2,3]
+    
+    print(type(a)) # dict
+    print(type(b))  # list
     ```
 
 - casting
