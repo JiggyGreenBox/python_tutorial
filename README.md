@@ -78,6 +78,25 @@ A revision list for learning python.
   print(len(mylist)) # 4
 
     ```
+- get ```input()``` from the user
+    ```python
+    # take input from the user
+    print('Please enter some text:')
+    x = input()         # input: 'sometext'
+    
+    print(x)            # output: 'sometext'
+    print(type(x))      # str
+    
+    
+    # take input from the user
+    # cast to int for mathematical comparisons
+    print('Please enter a number:')
+    x = int(input())    # input: '1'
+    
+    print(x)            # output: 1
+    print(type(x))      # int
+
+    ```
 
 - ```True / False``` and ``if``
     ```python
